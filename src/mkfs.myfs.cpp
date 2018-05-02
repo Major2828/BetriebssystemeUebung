@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
     if(argc > 0) {
         errorNumber = BlockDevice::create(argv[0]);
         if (errorNumber < 0) {
-            error("mkfs.myfs containerdatei [input-datei...]\");");
+            error("mkfs.myfs containerdatei [input-datei...]");
             return errorNumber;
         }
     }
